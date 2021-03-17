@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lottery</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Lottery Game</h1>
+    <p>Please enter 6 numbers between 1 and 59 in the boxes below
+    <br>or select 'Lucky Dip', and press 'Start Game'
+    </p>
+    <script src="../dist/Game.js"></script>
+    <button onclick="startGame()">Start Game</button>
+    <button onclick="luckyDip()">Lucky Dip</button>
+    <button onclick="resetGame()">Reset Game</button>
+    <h2>Entries</h2>
+    <input id="n0" maxlength="2">
+    <input id="n1" maxlength="2">
+    <input id="n2" maxlength="2">
+    <input id="n3" maxlength="2">
+    <input id="n4" maxlength="2">
+    <input id="n5" maxlength="2">
+    <h2>Results</h2>
+    <table id="resultTable">
+        <tr id="resultRow">
+            <td id="l0"/>
+            <td id="l1"/>
+            <td id="l2"/>
+            <td id="l3"/>
+            <td id="l4"/>
+            <td id="l5"/>
+        </tr>
+    </table>
+</body>
+</html>
