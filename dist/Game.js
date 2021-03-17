@@ -84,7 +84,6 @@ function startGame() {
     else {
         const lotteryDraw = gameServices.getLotteryDraw();
         const matches = gameServices.getMatches(lotteryDraw, input);
-        console.log(matches);
         for (let i = 0; i < 6; i += 1) {
             const tableElement = document.getElementById(`l${i}`);
             if (tableElement) {
