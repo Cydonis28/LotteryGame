@@ -40,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\WebStorm 2020.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -58,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1615923216270</updated>
       <workItem from="1615923217652" duration="7167000" />
-      <workItem from="1616001963396" duration="17496000" />
+      <workItem from="1616001963396" duration="18296000" />
     </task>
     <servers />
   </component>
