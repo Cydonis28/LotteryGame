@@ -122,6 +122,8 @@ function startGame(): void {
                 }
             }
         }
+
+        gameServices.getPrize(matches.length);
     }
 }
 

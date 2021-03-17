@@ -93,6 +93,7 @@ function startGame() {
                 }
             }
         }
+        gameServices.getPrize(matches.length);
     }
 }
 function luckyDip() {
